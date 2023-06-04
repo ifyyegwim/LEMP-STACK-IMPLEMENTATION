@@ -56,7 +56,7 @@ Our web server, Nginx, has been installed and is now running.
 
     sudo mysql
 
-*Set a password for the root user using mysql_native_password as default authentication method. We're defining this user's password as newpassword. To do this, we run the command below*
+*Set a password for the root user using mysql_native_password as default authentication method. We're defining this user's password as newpassword. To do this, run*
 
     ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'newpassword';
 
