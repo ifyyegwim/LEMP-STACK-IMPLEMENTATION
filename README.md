@@ -5,6 +5,7 @@ A LEMP stack is a bundle of four different software technologies that developers
 
 <img width="569" alt="Screenshot 2023-06-03 at 09 53 27" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/d51f51f5-5c1e-42db-9b9e-02b877a2640f">
 
+
 **STEP 2 - INSTALL NGINX WEB SERVER**
 
 In order to display web pages to our site visitors, we are going to employ Nginx, a high-performance web server. We’ll use the apt package manager to install this package.
