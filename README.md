@@ -1,21 +1,21 @@
 # LEMP STACK IMPLEMENTATION IN AWS
-A LEMP stack is a bundle of four different software technologies that developers use to build websites and web applications. LEMP is an acronym for the operating system, Linux; the web server, Nginx; the database server, MySQL; and the programming language, PHP. Before attempting this project, I had already created an AWS account and launched an instance running Ubuntu Server OS. I will now describe the steps I took to successfully implement LEMP.
+A LEMP stack is a bundle of four different software technologies that developers use to build websites and web applications. LEMP is an acronym for the operating system, Linux; the web server, Nginx; the database server, MySQL; and the programming language, PHP. Before attempting this project, I had already created an AWS account and launched an instance running Ubuntu Server OS.
 
-**STEP 1:** I set up an SSH and connected to Ubuntu Server instance on AWS via terminal
+**STEP 1 - Set up an SSH and connected to Ubuntu Server instance on AWS via terminal**
 
 <img width="569" alt="Screenshot 2023-06-03 at 09 53 27" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/d51f51f5-5c1e-42db-9b9e-02b877a2640f">
 
 **STEP 2:** I installed Nginx using Ubuntu's package installer 'apt'
 
-*to update a list of packages in package manager, I ran the command below*
+*to update a list of packages in package manager, I ran the command:*
 
     sudo apt update
     
-*to run Nginx package installation, I ran the command below*
+*to run Nginx package installation, I ran the command:*
 
     sudo apt install nginx
 
-*to verify that Nginx is running as a service in my OS, I ran the command below*
+*to verify that Nginx is running as a service in my OS, I ran the command below:*
 
     sudo systemctl status nginx
   
