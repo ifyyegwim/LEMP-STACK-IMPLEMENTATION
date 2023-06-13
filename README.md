@@ -26,7 +26,7 @@ In order to display web pages to our site visitors, we are going to employ Nginx
 
 Nginx has been installed successfully.
 
-*We need to add a rule in our EC2 configuration to open inbound configuration through port 80 and set the source to 0.0.0.0/0 so our Web Server can receive traffic and can be accessed both locally and from the Internet.*
+*We need to add a rule in our EC2 configuration to open inbound configuration through port 80 and set the source to 0.0.0.0/0 so our Web Server can receive traffic and can be accessed from the Internet.*
 
 <img width="1177" alt="Screenshot 2023-06-03 at 09 25 39" src="https://github.com/ifyyegwim/Breaking-into-DevOps/assets/134213051/d0ee3452-60ac-4e13-a56e-003d7b87ed55">
 
