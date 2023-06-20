@@ -254,7 +254,7 @@ Create a test database (DB) with simple “To do list” and configure access to
 
     exit
     
-*Creat a PHP script that will connect to MySQL and query for content. Create a new PHP file in your custom web root directory using vi:*
+*Create a PHP script that will connect to MySQL and query for content. Create a new PHP file in your custom web root directory using vi:*
 
     nano /var/www/projectLEMP/todo_list.php 
     
